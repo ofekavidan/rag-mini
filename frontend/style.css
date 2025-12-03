@@ -1,0 +1,10 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #0b0b0b; color: #eee; }
+main { max-width: 900px; margin: 40px auto; padding: 0 16px; }
+h1 { font-size: 22px; margin-bottom: 12px; }
+.controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 16px; }
+input { padding: 8px; border-radius: 6px; border: 1px solid #444; background: #111; color: #eee; }
+button { padding: 8px 14px; border-radius: 6px; border: 0; background: #3b82f6; color: white; cursor: pointer; }
+button:hover { filter: brightness(1.1); }
+#results { list-style: none; padding: 0; display: grid; gap: 10px; }
+#results li { padding: 10px; border: 1px solid #333; border-radius: 8px; background: #151515; }
+#results li .meta { opacity: 0.8; font-size: 12px; margin-bottom: 6px; }
